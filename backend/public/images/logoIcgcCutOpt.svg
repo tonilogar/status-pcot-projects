@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="280pt"
+   height="280pt"
+   viewBox="0 0 280 280"
+   version="1.1"
+   id="svg108"
+   sodipodi:docname="logoIcgcCutOptimizadoWeb.svg"
+   inkscape:version="1.0.1 (1.0.1+r74)">
+  <metadata
+     id="metadata114">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs112" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     id="namedview110"
+     showgrid="false"
+     inkscape:zoom="0.66981281"
+     inkscape:cx="587.68093"
+     inkscape:cy="295.32306"
+     inkscape:window-x="1600"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg108" />
+  <g
+     id="#ffd600ff">
+    <path
+       fill="#ffd600"
+       opacity="1"
+       d="m 0,0 h 281.53 c -0.07,25.16 0,50.32 -0.04,75.48 -22.15,0.07 -44.34,2.98 -65.65,9.06 -16.81,4.8 -33.11,11.8 -47.56,21.7 -11.23,7.91 -21.73,17.66 -27.81,30.17 -6.13,11.39 -15.29,20.9 -25.86,28.27 -23.55,16.56 -51.86,25.07 -80.12,29.08 -11.42,1.74 -22.98,1.92 -34.49,2.57 z"
+       id="path2" />
+  </g>
+  <g
+     id="#ffffffff" />
+  <g
+     id="#ff8c17ff">
+    <path
+       fill="#ff8c17"
+       opacity="1"
+       d="m 202.32,103.24 c 25.32,-9.15 52.34,-13.42 79.24,-13.19 -0.14,64.48 -0.02,128.96 -0.06,193.44 -93.84,0.02 -187.67,0 -281.5,0.01 v -73.26 c 4.32,-0.01 8.64,0.09 12.96,-0.01 29.53,-1.79 59.23,-7.98 85.7,-21.56 17.53,-9.05 34.02,-21.85 43.28,-39.65 4.8,-9.39 12.08,-17.26 20.21,-23.87 11.98,-9.59 25.83,-16.59 40.17,-21.91 z"
+       id="path6" />
+  </g>
+</svg>

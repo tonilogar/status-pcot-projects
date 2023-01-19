@@ -1,0 +1,33 @@
+{
+  "name": "status-pcot-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon backend/index.js",
+    "start": "cross-env NODE_ENV=production node backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonilogar/status-pcot-projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonilogar/status-pcot-projects/issues"
+  },
+  "homepage": "https://github.com/tonilogar/status-pcot-projects#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.0",
+    "mongoose": "^6.8.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+:root {
+  /* Colors */
+  --backgroundColorHeader: #2a2a2aa5;
+  --backgroundColorFooter: #333;
+  --colorHardGrey: rgb(112, 112, 112);
+  --colorSoftGrey: #ccc;
+  --colorSoftGreen: #33b73ca9;
+  --backgroundButtons: #fff;
+  --orangeIcgc: rgb(255, 140, 23);
+  --yellowIcgc: rgb(255, 214, 0);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  overflow: hidden;
+}
+
+.map {
+  width: 100vw;
+  height: 100vh;
+}

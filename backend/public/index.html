@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link href='./css/index.css' rel='stylesheet' />
+  <link href='./css/mapbox.css' rel='stylesheet' />
+  <link href='./css/uiTopLeft.css' rel='stylesheet' />
+  <link href='./css/uiTopRight.css' rel='stylesheet' />
+  <link href='./css/uiBottomLeft.css' rel='stylesheet' />
+  <link rel='shourtcut icon' href='./images/logoIcgcCutOpt.svg' type='image/x-icon'>
+  <!-- Mapbox libraries -->
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css' rel='stylesheet'>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js'></script>
+  <script
+    src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.min.js'></script>
+  <link rel='stylesheet'
+    href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.css'
+    type='text/css' />
+  <!-- Mapbox libraries -->
+  <!-- redux libraries -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/redux/4.2.0/redux.js'></script>
+  <!--The googleChart library.-->
+  <script src='https://www.gstatic.com/charts/loader.js'></script>
+  <!-- Jquery libraries -->
+  <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
+  <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+
+  <title>Status of PCOT's projects</title>
+
+
+</head>
+
+<body>
+  <div id='map' class='map'></div>
+  <!-- Widgets topLeft -->
+  <div class='projectsContainer'>
+    <div class='projectsHeaderWindow'>
+      <div class='projectsTitleHeader'>
+        <p>Projects</p>
+      </div>
+      <div class='projectsCloseWindow'>
+        <p onclick='showHideProjectsContainer()' title='Project' >&#60;</p>
+      </div>
+    </div>
+    <div class='dataProjects'>
+     
+    </div>
+  </div>
+  <!-- Widgets bottomLeft -->
+  <div class='coordinatesToolsContainer'>
+    <div class='headerWindow'>
+      <div class='titleHeader'>
+        <p>Navigation Coordinates</p>
+      </div>
+      <div class='closeWindow'>
+        <p onclick='showHideCoordinatesToolsContainer()' title='Navigation '>&#60;</p>
+      </div>
+    </div>
+    <div class='dataCoordinatesTools'>
+      <div class='geocoderContainer'></div>
+      <div class='NavigationControlContainer'></div>
+      <div class='geolocateContainer'></div>
+      <div class='copyCoorContainer'></div>
+      <div class='coordinatesContainer'></div>
+      <div class='zoomDegreeContainer'></div>
+      <div class='cameraHeightContainer'></div>
+    </div>
+  </div>
+  <!-- Widgets topRight -->
+  <div class='statusProjectsContainer'>
+    <div class='statusProjectsHeaderWindow'>
+      <div class='statusProjectsTitleHeader'>
+        <p>Status of PCOT's projects</p>
+      </div>
+      <div class='statusProjectsCloseWindow'>
+        <p onclick='showHideStatusProjectsContainer()' title='Status projects'>&#60;</p>
+      </div>
+    </div>
+    <div class='dataStatusProjects'>
+     
+    </div>
+  </div>
+  <script>
+    const showHideCoordinatesToolsContainer = () => {
+      if (document.querySelector('.dataCoordinatesTools').style.display == 'none') {
+        document.querySelector('.dataCoordinatesTools').style.display = 'block'
+        document.querySelector('.coordinatesToolsContainer').style.left = '5px'
+
+      }
+      else {
+        document.querySelector('.dataCoordinatesTools').style.display = 'none'
+        document.querySelector('.coordinatesToolsContainer').style.left = '-251px'
+      }
+    }
+
+    const showHideProjectsContainer = () => {
+      if (document.querySelector('.dataProjects').style.display == 'none') {
+        document.querySelector('.dataProjects').style.display = 'block'
+        document.querySelector('.projectsContainer').style.left = '5px'
+
+      }
+      else {
+        document.querySelector('.dataProjects').style.display = 'none'
+        document.querySelector('.projectsContainer').style.left = '-67px'
+      }
+    }
+
+    const showHideStatusProjectsContainer = () => {
+      if (document.querySelector('.dataStatusProjects').style.display == 'none') {
+        document.querySelector('.dataStatusProjects').style.display = 'block'
+        document.querySelector('.statusProjectsContainer').style.right = '5px'
+        document.querySelector('.statusProjectsTitleHeader').style.display = 'block'
+        document.querySelector('.statusProjectsHeaderWindow').style.backgroundColor = 'rgb(255, 139, 23)'
+      }
+      else {
+        document.querySelector('.dataStatusProjects').style.display = 'none'
+        document.querySelector('.statusProjectsContainer').style.right = '0px'
+        document.querySelector('.statusProjectsTitleHeader').style.display = 'none'
+        document.querySelector('.statusProjectsHeaderWindow').style.backgroundColor = 'rgba(255, 139, 23, 0)'
+      }
+    }
+  </script>
+  <script async src='./js/mapbox.js'></script>
+  <script defer type='module' src='./js/main.js'></script>
+</body>
+
+</html>
