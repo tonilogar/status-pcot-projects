@@ -4,8 +4,8 @@ mongoose.set('strictQuery', true)
 
 //mongodb+srv://tonilogar:Zaratustra_27@cluster0.tnyvv.mongodb.net/projectsPcot
 //mongodb://127.0.0.1/projectsPcot
-
-    mongoose.connect('mongodb://mongo:Ydr5A8zm8f4objpG8DxD@containers-us-west-152.railway.app:7753' , {
+//mongodb://mongo:Ydr5A8zm8f4objpG8DxD@containers-us-west-152.railway.app:7753
+    mongoose.connect('mongodb+srv://tonilogar:Zaratustra_27@cluster0.tnyvv.mongodb.net/projectsPcot' , {
       useNewUrlParser: true
   }) 
       .then(db => console.log(`DB is connected`))
@@ -14,4 +14,4 @@ mongoose.set('strictQuery', true)
       console.group('Data base ' + process.env.MONGODB_URI )
 
 
-      //mongodb://mongo:Ydr5A8zm8f4objpG8DxD@containers-us-west-152.railway.app:7753
+     ////mongodb://mongo:Ydr5A8zm8f4objpG8DxD@containers-us-west-152.railway.app:7753
