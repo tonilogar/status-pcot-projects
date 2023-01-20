@@ -2,13 +2,16 @@ const mongoose = require('mongoose');
 
 mongoose.set('strictQuery', true)
 
-//mongodb+srv://tonilogar:Zaratustra_27@cluster0.tnyvv.mongodb.net/dataBase
-//mongodb://127.0.0.1/basicJavascriptMongodb
+//mongodb+srv://tonilogar:Zaratustra_27@cluster0.tnyvv.mongodb.net/projectsPcot
+//mongodb://127.0.0.1/projectsPcot
 
-    mongoose.connect('mongodb://127.0.0.1/projectsPcot' , {
+    mongoose.connect('mongodb://mongo:Ydr5A8zm8f4objpG8DxD@containers-us-west-152.railway.app:7753' , {
       useNewUrlParser: true
   }) 
       .then(db => console.log(`DB is connected`))
       .catch(err => console.error(err))
 
       console.group('Data base ' + process.env.MONGODB_URI )
+
+
+      //mongodb://mongo:Ydr5A8zm8f4objpG8DxD@containers-us-west-152.railway.app:7753
