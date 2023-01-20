@@ -1,12 +1,13 @@
 class ProjectsService {
 
   constructor() {
-    this.URIPROJECTS = `https://status-pcot-projects-production.up.railway.app/api/projects`
+    this.URIPROJECTS = "http://localhost:3000/api/projects"
     this.projectsDataBase
   }
 
   async getProjects() {
     const response = await fetch(this.URIPROJECTS)
+    console.log(response, ' Projects')
     //console.log(response, ' Projects')
     this.projectsDataBase = await response.json()
     //console.log(this.projectsDataBase, ' this.projectsDataBase')
