@@ -4,7 +4,7 @@ class ProjectsService {
     this.URIPROJECTS = "https://status-pcot-projects-production.up.railway.app/api/projects"
     this.projectsDataBase
   }
-
+//////
   async getProjects() {
     const response = await fetch(this.URIPROJECTS)
     console.log(response, ' Projects')
