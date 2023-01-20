@@ -1,7 +1,7 @@
 class ProjectsService {
 
   constructor() {
-    this.URIPROJECTS = "https://status-pcot-projects-production.up.railway.app/"+PORT+"/api/projects"
+    this.URIPROJECTS = "https://status-pcot-projects-production.up.railway.app/api/projects"
     this.projectsDataBase
   }
 
