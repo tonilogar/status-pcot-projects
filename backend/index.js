@@ -8,7 +8,7 @@ const express = require('express')
 const morgan = require('morgan')//Nos permite ver por consola lo que las aplicaciones cliente van pidiendo
 const path = require('path')
 const cors = require('cors')
-
+//
 //Initializations
 const app = express()
 require('./database')
